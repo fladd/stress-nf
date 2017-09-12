@@ -1,6 +1,6 @@
 # STRESNET WP5
 
-## Real-time fMRI Neurofeedback ideas
+## Neurofeedback training to increase stress resiliance
 
 Florian Krause
 
@@ -11,7 +11,7 @@ Florian Krause
 
 +++?image=assets/CAN_NF_Studies.png&size=contain
 
----
+???
 Study | Subjects | Context | NF target | NF type
 ----- | -------- | ------- | --------- | -------
 Johnston et al. (2010) | healthy | emotion imagery | subject dependent region | activation
@@ -38,6 +38,6 @@ Paret et al. (2016) | BPD | aversive stimuli | Amygdala | activation
 Cohen Kadosh et al. (2016) | healthy | emotion imagery | Insula | activation
 Sherwood et al. (2016) | healthy | working memory | dlPFC | activation
 Young et al. (2017) | MDD | positive AB memories | Amygdala | activation
-Li et al. (2017) | healthy | positive/negative AB memories | subject dependent map SVM-RFE) | state
+Li et al. (2017) | healthy | positive/negative AB memories | subject dependent map (SVM-RFE) | state
 Nicholson et al. (2017) | PTSD | personalized trauma words | Amygdala | activation
-Koush et al. (2017) | healthy | positive social stimuli | DCM | (effective) connectivity
+Koush et al. (2017) | healthy | positive social stimuli |dmPFC/Amygdala (DCM) | (effective) connectivity
