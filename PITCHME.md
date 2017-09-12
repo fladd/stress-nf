@@ -30,11 +30,16 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 
 ---
 
-### Original plan (ERC proposal)
-- Develop a neurofeedback algorithm  sensitive  to  individual  “fingerprints”  of  neural  responses  to  stressors
-- By training  a classifier on individual patterns of neural activity elicited in response to a brief stressor  (anticipation of mild electrical  shock known  to  trigger  a  rapid  shift  towards  the  salience  network
-- The  set  of  weights resulting from classifier training can subsequently be used to combine activity patterns measured in real-time (in response to the same challenge) into a single score expressing the similarity of the current brain state to the  training  state
+## What neurofeedback signal?
 
++++
+
+### Original plan (ERC proposal)
+**Develop neurofeedback algorithm  sensitive  to  individual  “fingerprints”  of  neural  responses  to  stressors:**
+  - train classifier on individual patterns of neural activity elicited in response to brief stressor, known to trigger rapid shift towards salience network
+  - set of weights resulting from classifier training can subsequently be used to combine activity patterns measured in real-time (in response to the same challenge) into a single score expressing the similarity of the current brain state to the training state
+
+---
 
 ### CAN-relevant rtfMRI-NF studies
 
