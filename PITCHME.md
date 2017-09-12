@@ -11,7 +11,7 @@ Florian Krause
 
 +++?image=assets/CAN_NF_Studies.png&size=contain
 
-???
+Note:
 Study | Subjects | Context | NF target | NF type
 ----- | -------- | ------- | --------- | -------
 Johnston et al. (2010) | healthy | emotion imagery | subject dependent region | activation
