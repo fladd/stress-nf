@@ -34,14 +34,14 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 
 +++
 
-### My initial intuition (before I started)
+### My initial intuition
 **Develop sophisticated connectivity measure:**
   - identify representative areas for each of the three core networks
   - compute some measure that captures their activation relative to each other (e.g. between-network cohesion; Young et al. 2017)
 
 +++
 
-### Erno's original plan (in ERC proposal)
+### Erno's original plan
 **Develop algorithm  sensitive  to  individual  “fingerprints”  of  neural  responses  to  stressors:**
   - train classifier on individual patterns of neural activity elicited in response to brief stressor, known to trigger rapid shift towards salience network
   - use resulting set of weights to combine activity patterns measured in real-time (in response to the same challenge) into a single score expressing the similarity of the current brain state to the training state
