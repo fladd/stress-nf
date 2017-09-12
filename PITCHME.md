@@ -5,7 +5,7 @@
 +++
 
 ### WP5.1
-- Establish reliablity of neurofeedback signal by demonstrating that individuals:
+Establish reliablity of neurofeedback signal by demonstrating that individuals:
   1. are able to gain general control over this measure
   2. receive significantly more information from this than from a verbal instruction
   3. can use this information to counteract an externally induced brain response
