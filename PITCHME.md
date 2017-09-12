@@ -5,6 +5,7 @@
 +++
 
 ### WP5.1
+
 **Establish reliablity of neurofeedback signal by demonstrating that individuals can:**
   1. gain general control over this measure
   2. receive significantly more information from this than from a verbal instruction
@@ -14,13 +15,17 @@
 +++
 
 ### WP5.2
+
 **Hypothesis**:
+
 Neurofeedback training based global network shifts lowers stress reactivity in a laboratory test outside of the scanner
 
 +++
 
 ### WP5.3
+
 **Hypothesis**:
+
 Post-neurofeedback training benefits generalize to real-world outcomes in terms of increasing stress resilience
 
 ---
