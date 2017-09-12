@@ -9,6 +9,7 @@ Florian Krause
 
 ### CAN-relevant rtfMRI-NF studies
 
+<small>
 Study | Subjects | Context | NF target | NF type
 ----- | -------- | ------- | --------- | -------
 Johnston et al. (2010) | healthy | emotion imagery | subject dependent region | activation
@@ -38,4 +39,4 @@ Young et al. (2017) | MDD | positive AB memories | Amygdala | activation
 Li et al. (2017) | healthy | positive/negative AB memories | subject dependent map SVM-RFE) | state
 Nicholson et al. (2017) | PTSD | personalized trauma words | Amygdala | activation
 Koush et al. (2017) | healthy | positive social stimuli | DCM | (effective) connectivity
-
+</small>
