@@ -7,7 +7,29 @@ Florian Krause
 ---
 
 
-## CAN-relevant rtfMRI-NF studies
+### Original plan (ERC proposal)
+- Develop a neurofeedback algorithm  sensitive  to  individual  “fingerprints”  of  neural  responses  to  stressors
+- By training  a classifier on individual patterns of neural activity elicited in response to a brief stressor  (anticipation of mild electrical  shock known  to  trigger  a  rapid  shift  towards  the  salience  network
+- The  set  of  weights resulting from classifier training can subsequently be used to combine activity patterns measured in real-time (in response to the same challenge) into a single score expressing the similarity of the current brain state to the  training  state
+- This  score  is  then  used  to  generate  visual  feedback  to  the  participant
+
++++
+
+#### WP 5.1
+Participants  are  able  to  gain control  over  this  measure  when receiving  neurofeedback  during  training,  when  compared  to  verbal instructions  without  neurofeedback
+
++++
+
+#### WP 5.2
+Neurofeedback training based on this global network shift lowers stress reactivity in a laboratory test outside of the scanner
+
++++
+
+#### Hypothesis 5.3
+Post-neurofeedback training benefits generalize to real-world outcomes in terms of increasing stress resilience
+
+
+### CAN-relevant rtfMRI-NF studies
 
 +++?image=assets/CAN_NF_Studies.png&size=contain
 
