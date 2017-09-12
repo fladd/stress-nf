@@ -14,12 +14,14 @@
 +++
 
 ### WP5.2
-**Hypothesis**: Neurofeedback training based global network shift lowers stress reactivity in a laboratory test outside of the scanner
+**Hypothesis**:
+Neurofeedback training based global network shifts lowers stress reactivity in a laboratory test outside of the scanner
 
 +++
 
 ### WP5.3
-**Hypothesis**: Post-neurofeedback training benefits generalize to real-world outcomes in terms of increasing stress resilience
+**Hypothesis**:
+Post-neurofeedback training benefits generalize to real-world outcomes in terms of increasing stress resilience
 
 ---
 
