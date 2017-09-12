@@ -6,14 +6,12 @@ Florian Krause
 
 ---
 
-<style>
-.reveal {
-    font-size: 10;
-}
-</style>
-### CAN-relevant rtfMRI-NF studies
 
-![](assets/CAN_NF_Studies.png)
+## CAN-relevant rtfMRI-NF studies
+
+---
+
+---?image=assets/CAN_NF_Studies.png
 
 ---
 Study | Subjects | Context | NF target | NF type
