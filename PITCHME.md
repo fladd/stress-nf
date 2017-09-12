@@ -48,7 +48,7 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 
 ---
 
-## CAN-relevant rtfMRI-NF studies
+## Relevant rtfMRI-NF studies
 
 +++?image=assets/CAN_NF_Studies.png&size=contain
 
