@@ -13,7 +13,7 @@ Florian Krause
 </style>
 ### CAN-relevant rtfMRI-NF studies
 
-![](assets/CAN_NF_Studies.jpg)
+![](assets/CAN_NF_Studies.png)
 
 ---
 Study | Subjects | Context | NF target | NF type
