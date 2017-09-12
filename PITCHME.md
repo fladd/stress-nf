@@ -1,16 +1,20 @@
 # STRESNET WP5
 
-## Neurofeedback training to increase stress resiliance
+## Neurofeedback training based on global network shifts to increase stress resiliance
 
 +++
 
 ### WP5.1
-**Hypothesis**: Participants  are  able  to  gain control  over  this  measure  when receiving  neurofeedback  during  training,  when  compared  to  verbal instructions  without  neurofeedback
+- Establish reliablity of neurofeedback signal by demonstrating that individuals:
+  1. are able to gain general control over this measure
+  2. receive significantly more information from this than from a verbal instruction
+  3. can use this information to counteract an externally induced brain response
+  4. will after training apply this learned mechanism in the absenced of feedback
 
 +++
 
 ### WP5.2
-**Hypothesis**: Neurofeedback training based on this global network shift lowers stress reactivity in a laboratory test outside of the scanner
+**Hypothesis**: Neurofeedback training based global network shift lowers stress reactivity in a laboratory test outside of the scanner
 
 +++
 
@@ -23,7 +27,6 @@
 - Develop a neurofeedback algorithm  sensitive  to  individual  “fingerprints”  of  neural  responses  to  stressors
 - By training  a classifier on individual patterns of neural activity elicited in response to a brief stressor  (anticipation of mild electrical  shock known  to  trigger  a  rapid  shift  towards  the  salience  network
 - The  set  of  weights resulting from classifier training can subsequently be used to combine activity patterns measured in real-time (in response to the same challenge) into a single score expressing the similarity of the current brain state to the  training  state
-- This  score  is  then  used  to  generate  visual  feedback  to  the  participant
 
 
 ### CAN-relevant rtfMRI-NF studies
