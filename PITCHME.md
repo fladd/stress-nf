@@ -1,9 +1,10 @@
-# STRESNET
+## STRESNET
 
-## Real-time fMRI Neurofeedback ideas
+### Real-time fMRI Neurofeedback ideas
 
 Florian Krause
 
 ---
 
 
+# 
