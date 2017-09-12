@@ -10,7 +10,7 @@
   1. gain general control over this measure
   2. receive significantly more information from this than from a verbal instruction
   3. use this information to counteract an externally induced brain response
-  4. after training, apply this learned mechanism in the absenced of feedback
+  4. after training, apply this learned mechanism in the absence of feedback
 
 +++
 
@@ -44,7 +44,7 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 ### Erno's original plan (in ERC proposal)
 **Develop algorithm  sensitive  to  individual  “fingerprints”  of  neural  responses  to  stressors:**
   - train classifier on individual patterns of neural activity elicited in response to brief stressor, known to trigger rapid shift towards salience network
-  - use resulting set of weights subsequently to combine activity patterns measured in real-time (in response to the same challenge) into a single score expressing the similarity of the current brain state to the training state
+  - use resulting set of weights to combine activity patterns measured in real-time (in response to the same challenge) into a single score expressing the similarity of the current brain state to the training state
 
 ---
 
