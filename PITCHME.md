@@ -35,7 +35,7 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 +++
 
 ### Original plan (ERC proposal)
-**Develop neurofeedback algorithm  sensitive  to  individual  “fingerprints”  of  neural  responses  to  stressors:**
+**Develop algorithm  sensitive  to  individual  “fingerprints”  of  neural  responses  to  stressors:**
   - train classifier on individual patterns of neural activity elicited in response to brief stressor, known to trigger rapid shift towards salience network
   - set of weights resulting from classifier training can subsequently be used to combine activity patterns measured in real-time (in response to the same challenge) into a single score expressing the similarity of the current brain state to the training state
 
