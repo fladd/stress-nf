@@ -34,10 +34,17 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 
 +++
 
-### Original plan (ERC proposal)
+### Erno's original idea (ERC proposal)
 **Develop algorithm  sensitive  to  individual  “fingerprints”  of  neural  responses  to  stressors:**
   - train classifier on individual patterns of neural activity elicited in response to brief stressor, known to trigger rapid shift towards salience network
   - use resulting set of weights subsequently to combine activity patterns measured in real-time (in response to the same challenge) into a single score expressing the similarity of the current brain state to the training state
+
++++
+
+### My initial (maybe naiive) idea
+**Develop complex connectivity measure:**
+  - identify representative areas of the three core networks
+  - compute some measure of relation between them (e.g. between-network cohesion; Young et al. 2017)
 
 ---
 
