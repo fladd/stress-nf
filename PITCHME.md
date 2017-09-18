@@ -46,39 +46,176 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
   - train classifier on individual patterns of neural activity elicited in response to brief stressor, known to trigger rapid shift towards salience network
   - use resulting set of weights to combine activity patterns measured in real-time (in response to the same challenge) into a single score expressing the similarity of the current brain state to the training state
 
+
 ---
+
+## Requirements for NF signal
+
++++
+
+1. **Conceptual**
+  - capture the "right thing"
+
+2. **Technical**
+  - definable in reasonable amount of time
+  - computable in real-time
+
+3. **Emprical**
+  - sufficent information (SNR)
+  - "controllable"
+
++++
+
+### What is our goal?
+
+**Train participants to shift from global state A of three large-scale networks to some other global state B**
+
+![](assets/global_shifts.png)
+
++++
+
+### How to suffficiently capture A?
+
+- **Function**
+  - SN > Baseline
+  - SN > ECN
+  - SN > DMN
+  - SN > DMN+ECN
+  - some other configuration of SN, ECN and DMN
+
+- **Detail**
+  - specific region(s)
+  - global
+
++++
+
+### What is B?
+
+- not A
+- ECN > SN
+- DMN > SN
+- ECN+DMN > SN
+- a perfect balance between SN, ECN and DMN
+- some other configuration of SN, ECN and DMN
+
+
+---
+
 
 ## Relevant rtfMRI-NF studies
 
-+++?image=assets/CAN_NF_Studies.png&size=contain
++++
+<!-- .slide: data-background-image="assets/CAN_NF_Studies.png" data-background-size="contain" -->
 
-Note:
-Study | Subjects | Context | NF target | NF type
------ | -------- | ------- | --------- | -------
-Johnston et al. (2010) | healthy | emotion imagery | subject dependent region | activation
-Hamilton et al. (2011) | healthy | emotion imagery | sACC | activation
-Zotev et al. (2011) | healhty | positive AB memories | Amygdala | activation
-Veit et al. (2012) | healthy | threat-related stimuli | AIC | activation
-Linden et al. (2012) | MDD | emotion imagery | subject dependent region | activation
-Zhang et al. (2013) | healthy| working memory | dlPFC | activation
-Ruiz et al. (2013) | schizophrenia | emotion recognition | AIC | activation
-Scheinost et al. (2013) | subclinical anxiety | contamination anxiety | OFC | activation
-Young et al. (2014) | MDD | positive AB memories | Amygdala | activation
-Yuan et al. (2014) | MDD | positive AB memories | Amygdala | activation
-Sitaram et al. (2014) | criminal psyhopaths | emotion imagery | AIC | activation
-Moll et al. (2014) | healthy | affiliative emotion imagery | whole brain (SVM) | state
-Groene et al. (2014) | healthy | perception of emotions | ACC | activation
-Zotev et al. (2014) | healthy | emotion regulation | Amygdala | activation
-Sarkheil et al. (2015) | healthy | aversive stimuli | LPFC | activation
-Zilverstand et al. (2015) | females with spider phobia | anxiety provoking stimuli | dlPFC/Insula | activation
-Zang et al. (2015) | healthy | working memory | dlPFC | activation
-Gerin et al. (2016) | PTSD | personalized trauma scripts | Amygdala | activation
-Li et al. (2016) | healthy | positive AB memories | subject dependent map (SVM-RFE) | state
-Hamilton et al. (2016) | MDD | aversive stimuli | subject dependent SN nodes | activation
-Paret et al. (2016) | BPD | aversive stimuli | Amygdala | activation
-Cohen Kadosh et al. (2016) | healthy | emotion imagery | Insula | activation
-Sherwood et al. (2016) | healthy | working memory | dlPFC | activation
-Young et al. (2017) | MDD | positive AB memories | Amygdala | activation
-Li et al. (2017) | healthy | positive/negative AB memories | subject dependent map (SVM-RFE) | state
-Nicholson et al. (2017) | PTSD | personalized trauma words | Amygdala | activation
-Koush et al. (2017) | healthy | positive social stimuli |dmPFC/Amygdala (DCM) | (effective) connectivity
++++
+<!-- .slide: data-background-image="assets/Hamilton_2016.png" data-background-size="55% 90%" -->
+
++++
+<!-- .slide: data-background-image="assets/Veit_2012.png" data-background-size="contain" -->
+
++++
+<!-- .slide: data-background-image="assets/Paret_2016.png" data-background-size="contain" -->
+
++++
+<!-- .slide: data-background-image="assets/Nicholson_2017.png" data-background-size="57% 100%" -->
+
++++
+<!-- .slide: data-background-image="assets/Scheinost_2013.png" data-background-size="55% 55%" -->
+
++++
+<!-- .slide: data-background-image="assets/Sarkheil_2015.png" data-background-size="55% 45%" -->
+
++++
+<!-- .slide: data-background-image="assets/Kadosh_2017.png" data-background-size="55% 90%" -->
+
++++
+<!-- .slide: data-background-image="assets/Zhang_2015.png" data-background-size="55% 80%" -->
+
++++
+<!-- .slide: data-background-image="assets/Zilverstand_2015.png" data-background-size="55% 90%" -->
+
++++
+<!-- .slide: data-background-image="assets/Koush_2017.png" data-background-size="55% 90%" -->
+
++++
+<!-- .slide: data-background-image="assets/Moll_2014.png" data-background-size="70% 100%" -->
+
++++
+<!-- .slide: data-background-image="assets/Li_2016.png" data-background-size="55% 100%" -->
+
+
+---
+
+
+## "Labdemo" dataset
+
++++
+
+- Fear conditioning paradigm:
+  - 15 CS+ (4 sec)
+  - 15 CS- (4 sec)
+  - 6 UCS
+
+- Parameters:
+  - 319 volumes
+  - 2.4 mm isotropic
+  - 60 slices
+  - TR = 0.867
+  - ~ 4.5 min
+
++++
+
+### Disclaimer
+
+- Very short recording --> few trials
+- Resliced to 3 mm isotropic
+- Events resampled to TR resolution
+
++++
+
+### Univariate results
+
+- CS+ > CS-
+
++++
+
+<!-- .slide: data-background-image="assets/labdemo_univariate.png" data-background-size="auto 90%" -->
+
++++
+
+### SVM
+
+- Single-trial modeling (HRF -1 to +6)
+- Split into training set (n=10) and test set (n=5)
+- Train (linear kernel, model selection using cross-validation with 10 folds)
+- Permutation-based validation of classifier accuracy (i=200)
+
++++
+
+<!-- .slide: data-background-image="assets/labdemo_svm.png" data-background-size="auto 90%" -->
+
++++
+
+### Recursive Feature Elimination
+
+- Full-brain mask
+- Use training data from before
+- Nested two-level cross-validation:
+  - First level (4 folds): univariate feature-selection (top 33%)
+  - Second level (4 folds): SVM performance feature-selection (10 iterations; keep 20%)
+
++++
+
+<!-- .slide: data-background-image="assets/labdemo_rfe_generalization.png" data-background-size="auto 90%" -->
+
++++
+
+<!-- .slide: data-background-image="assets/labdemo_rfe.png" data-background-size="auto 90%" -->
+
++++
+
+- Permutation-based validation of classifier accuracy (i=200)
+
++++
+
+<!-- .slide: data-background-image="assets/labdemo_rfe_svm.png" data-background-size="auto 90%" -->
