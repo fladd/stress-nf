@@ -70,7 +70,7 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 
 **Train participants to shift from global state A of three large-scale networks to some other global state B**
 
-![](assets/global_shifts.png)
+![](images/global_shifts.png)
 
 +++
 
@@ -105,43 +105,43 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 ## Relevant rtfMRI-NF studies
 
 +++
-<!-- .slide: data-background-image="./assets/CAN_NF_Studies.png" data-background-size="contain" -->
+<!-- .slide: data-background-image="images/CAN_NF_Studies.png" data-background-size="contain" -->
 
 +++
-<!-- .slide: rata-background-image="assets/Hamilton_2016.png" data-background-size="55% 90%" -->
+<!-- .slide: rata-background-image="images/Hamilton_2016.png" data-background-size="55% 90%" -->
 
 +++
-<!-- .slide: data-background-image="assets/Veit_2012.png" data-background-size="contain" -->
+<!-- .slide: data-background-image="images/Veit_2012.png" data-background-size="contain" -->
 
 +++
-<!-- .slide: data-background-image="assets/Paret_2016.png" data-background-size="contain" -->
+<!-- .slide: data-background-image="images/Paret_2016.png" data-background-size="contain" -->
 
 +++
-<!-- .slide: data-background-image="assets/Nicholson_2017.png" data-background-size="57% 100%" -->
+<!-- .slide: data-background-image="images/Nicholson_2017.png" data-background-size="57% 100%" -->
 
 +++
-<!-- .slide: data-background-image="assets/Scheinost_2013.png" data-background-size="55% 55%" -->
+<!-- .slide: data-background-image="images/Scheinost_2013.png" data-background-size="55% 55%" -->
 
 +++
-<!-- .slide: data-background-image="assets/Sarkheil_2015.png" data-background-size="55% 45%" -->
+<!-- .slide: data-background-image="images/Sarkheil_2015.png" data-background-size="55% 45%" -->
 
 +++
-<!-- .slide: data-background-image="assets/Kadosh_2017.png" data-background-size="55% 90%" -->
+<!-- .slide: data-background-image="images/Kadosh_2017.png" data-background-size="55% 90%" -->
 
 +++
-<!-- .slide: data-background-image="assets/Zhang_2015.png" data-background-size="55% 80%" -->
+<!-- .slide: data-background-image="images/Zhang_2015.png" data-background-size="55% 80%" -->
 
 +++
-<!-- .slide: data-background-image="assets/Zilverstand_2015.png" data-background-size="55% 90%" -->
+<!-- .slide: data-background-image="images/Zilverstand_2015.png" data-background-size="55% 90%" -->
 
 +++
-<!-- .slide: data-background-image="assets/Koush_2017.png" data-background-size="55% 90%" -->
+<!-- .slide: data-background-image="images/Koush_2017.png" data-background-size="55% 90%" -->
 
 +++
-<!-- .slide: data-background-image="assets/Moll_2014.png" data-background-size="70% 100%" -->
+<!-- .slide: data-background-image="images/Moll_2014.png" data-background-size="70% 100%" -->
 
 +++
-<!-- .slide: data-background-image="assets/Li_2016.png" data-background-size="55% 100%" -->
+<!-- .slide: data-background-image="images/Li_2016.png" data-background-size="55% 100%" -->
 
 
 ---
@@ -179,7 +179,7 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 
 +++
 
-<!-- .slide: data-background-image="assets/labdemo_univariate.png" data-background-size="auto 90%" -->
+<!-- .slide: data-background-image="images/labdemo_univariate.png" data-background-size="auto 90%" -->
 
 +++
 
@@ -192,7 +192,7 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 
 +++
 
-<!-- .slide: data-background-image="assets/labdemo_svm.png" data-background-size="auto 90%" -->
+<!-- .slide: data-background-image="images/labdemo_svm.png" data-background-size="auto 90%" -->
 
 +++
 
@@ -206,11 +206,11 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 
 +++
 
-<!-- .slide: data-background-image="assets/labdemo_rfe_generalization.png" data-background-size="auto 90%" -->
+<!-- .slide: data-background-image="images/labdemo_rfe_generalization.png" data-background-size="auto 90%" -->
 
 +++
 
-<!-- .slide: data-background-image="assets/labdemo_rfe.png" data-background-size="auto 90%" -->
+<!-- .slide: data-background-image="images/labdemo_rfe.png" data-background-size="auto 90%" -->
 
 +++
 
@@ -218,4 +218,4 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 
 +++
 
-<!-- .slide: data-background-image="assets/labdemo_rfe_svm.png" data-background-size="auto 90%" -->
+<!-- .slide: data-background-image="images/labdemo_rfe_svm.png" data-background-size="auto 90%" -->
