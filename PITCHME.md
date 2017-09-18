@@ -104,44 +104,31 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 
 ## Relevant rtfMRI-NF studies
 
-+++
-<!-- .slide: data-background-image="images/CAN_NF_Studies.png" data-background-size="contain" -->
+++++?image=images/CAN_NF_Studies.png&size=contain
 
-+++
-<!-- .slide: data-background-image="images/Hamilton_2016.png" data-background-size="55% 90%" -->
++++?image=images/Hamilton_2016.png&size=55% 90%
 
-+++
-<!-- .slide: data-background-image="images/Veit_2012.png" data-background-size="contain" -->
++++?image=images/Veit_2012.png&size=contain
 
-+++
-<!-- .slide: data-background-image="images/Paret_2016.png" data-background-size="contain" -->
++++?image=images/Paret_2016.png&size=contain
 
-+++
-<!-- .slide: data-background-image="images/Nicholson_2017.png" data-background-size="57% 100%" -->
++++?image=images/Nicholson_2017.png&size=57% 100%
 
-+++
-<!-- .slide: data-background-image="images/Scheinost_2013.png" data-background-size="55% 55%" -->
++++?image=images/Scheinost_2013.png&size=55% 55%
 
-+++
-<!-- .slide: data-background-image="images/Sarkheil_2015.png" data-background-size="55% 45%" -->
++++?image=images/Sarkheil_2015.png&size=55% 45%
 
-+++
-<!-- .slide: data-background-image="images/Kadosh_2017.png" data-background-size="55% 90%" -->
++++?image=images/Kadosh_2017.png&size=55% 90%
 
-+++
-<!-- .slide: data-background-image="images/Zhang_2015.png" data-background-size="55% 80%" -->
++++?image=images/Zhang_2015.png&size=55% 80%
 
-+++
-<!-- .slide: data-background-image="images/Zilverstand_2015.png" data-background-size="55% 90%" -->
++++?image=images/Zilverstand_2015.png&size=55% 90%
 
-+++
-<!-- .slide: data-background-image="images/Koush_2017.png" data-background-size="55% 90%" -->
++++?image=images/Koush_2017.png&size=55% 90%
 
-+++
-<!-- .slide: data-background-image="images/Moll_2014.png" data-background-size="70% 100%" -->
++++?image=images/Moll_2014.png&size=70% 100%
 
-+++
-<!-- .slide: data-background-image="images/Li_2016.png" data-background-size="55% 100%" -->
++++?image=images/Li_2016.png&size=55% 100%
 
 
 ---
@@ -177,9 +164,7 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 
 - CS+ > CS-
 
-+++
-
-<!-- .slide: data-background-image="images/labdemo_univariate.png" data-background-size="auto 90%" -->
++++?image=images/labdemo_univariate.png&size=auto 90%
 
 +++
 
@@ -190,9 +175,7 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 - Train (linear kernel, model selection using cross-validation with 10 folds)
 - Permutation-based validation of classifier accuracy (i=200)
 
-+++
-
-<!-- .slide: data-background-image="images/labdemo_svm.png" data-background-size="auto 90%" -->
++++?image=images/labdemo_svm.png&size=auto 90%
 
 +++
 
@@ -204,18 +187,12 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
   - First level (4 folds): univariate feature-selection (top 33%)
   - Second level (4 folds): SVM performance feature-selection (10 iterations; keep 20%)
 
-+++
++++?image=images/labdemo_rfe_generalization.png&size=auto 90%
 
-<!-- .slide: data-background-image="images/labdemo_rfe_generalization.png" data-background-size="auto 90%" -->
-
-+++
-
-<!-- .slide: data-background-image="images/labdemo_rfe.png" data-background-size="auto 90%" -->
++++?image=images/labdemo_rfe.png&size=auto 90%
 
 +++
 
 - Permutation-based validation of classifier accuracy (i=200)
 
-+++
-
-<!-- .slide: data-background-image="images/labdemo_rfe_svm.png" data-background-size="auto 90%" -->
++++?image=images/labdemo_rfe_svm.png&size=auto 90%
