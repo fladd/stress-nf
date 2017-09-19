@@ -196,3 +196,37 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 - Permutation-based validation of classifier accuracy (i=200)
 
 +++?image=images/labdemo_rfe_svm.png&size=auto 90%
+
+
+---
+
+
+## An ambitious idea
+
++++
+
+![](images/global_shifts.png)
+
+**Train participants to shift from global state A of three large-scale networks to another global state that is not A, but B and/or C**
+
++++
+
+- Use multi-class SVM to classify between these three "brain states"
+  - A = Shift balance to SN
+  - B = Shift balance to ECN
+  - C = Shift balance to DMN
+
+![](images/svm_pairwise_diagram.png)
+
++++
+
+- Design Localiser with three trial types:
+  - SN activation (threat)
+  - ENC activation (n-back)
+  - DMN activation (rest?)
+
+- Train to move "away" from SN
+
++++
+
+![](images/svm_classification_space.png)
