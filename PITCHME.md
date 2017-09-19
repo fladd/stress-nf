@@ -216,6 +216,8 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
   - B = Shift balance to ECN
   - C = Shift balance to DMN
 
++++
+
 ![](images/svm_pairwise_diagram.png)
 
 +++
