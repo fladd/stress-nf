@@ -212,9 +212,9 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 +++
 
 - Use multi-class SVM to classify between these three "brain states"
-  - A = Shift balance to SN
-  - B = Shift balance to ECN
-  - C = Shift balance to DMN
+  - A = Shift in balance towards SN
+  - B = Shift in balance towards ECN
+  - C = Shift in balance towards DMN
 
 +++
 
