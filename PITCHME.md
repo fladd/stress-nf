@@ -216,6 +216,8 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
   - B = Shift in balance towards ECN
   - C = Shift in balance towards DMN
 
+- Maybe make use of masking and/or RFE
+
 +++
 
 ![](images/svm_pairwise_diagram.png)
@@ -229,7 +231,7 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 
 - Train SVM to distinguish between them
 
-- NF signal is postion in 2D space of "brain states"
+- NF signal = postion in 2D space of "brain states"
 
 +++
 
