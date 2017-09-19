@@ -227,7 +227,7 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
   - ENC activation (n-back)
   - DMN activation (rest?)
 
-- Train to move "away" from SN
+- Train to "move away" from SN
 
 +++
 
