@@ -211,7 +211,7 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 
 +++
 
-- Use multi-class SVM to classify between these three "brain states"
+- Use multi-class SVM to capture these three "brain states"
   - A = Shift in balance towards SN
   - B = Shift in balance towards ECN
   - C = Shift in balance towards DMN
@@ -227,7 +227,9 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
   - ENC activation (n-back)
   - DMN activation (rest?)
 
-- Train to "move away" from SN
+- Train SVM to distinguish between them
+
+- NF signal is postion in 2D space of "brain states"
 
 +++
 
