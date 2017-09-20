@@ -2,7 +2,7 @@
 
 ## Neurofeedback training based on global network shifts to increase stress resilience
 
-++++?image=images/large_scale_networks.png&size=contain
++++?image=images/large_scale_networks.png&size=contain
  
 +++
 
@@ -106,7 +106,7 @@ Post-neurofeedback training benefits generalize to real-world outcomes in terms 
 
 ## Relevant rtfMRI-NF studies
 
-++++?image=images/CAN_NF_Studies.png&size=contain
++++?image=images/CAN_NF_Studies.png&size=contain
 
 +++?image=images/Hamilton_2016.png&size=55% 90%
 
