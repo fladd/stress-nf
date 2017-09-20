@@ -2,8 +2,6 @@
 
 ## Neurofeedback training based on global network shifts to increase stress resilience
 
-+++
-
 ++++?image=images/large_scale_networks.png&size=contain
  
 +++
