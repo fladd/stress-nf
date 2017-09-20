@@ -4,7 +4,7 @@
 
 +++
 
-![](images/large_scale_networks.png)
+++++?image=images/large_scale_networks.png&size=contain
  
 +++
 
