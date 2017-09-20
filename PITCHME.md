@@ -1,6 +1,6 @@
 # STRESNET WP5
 
-## Neurofeedback training based on global network shifts to increase stress resiliance
+## Neurofeedback training based on global network shifts to increase stress resilience
 
 +++
 
