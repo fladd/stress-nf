@@ -4,6 +4,10 @@
 
 +++
 
+![](images/large_scale_networks.png)
+ 
++++
+
 ### WP5.1
 
 **Establish reliablity of neurofeedback signal by demonstrating that individuals can:**
@@ -13,8 +17,6 @@
   4. after training, apply this learned mechanism in the absence of feedback
 
 +++
-
-![](images/large_scale_networks.png)
 
 ### WP5.2
 
