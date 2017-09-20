@@ -14,6 +14,8 @@
 
 +++
 
+![](images/large_scale_networks.png)
+
 ### WP5.2
 
 **Hypothesis**:
